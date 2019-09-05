@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="10e1732ddb1f7300cf39b080399619f6" sys_domain="global" table="x_373005_gatepass_company" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>4f42b76ddb1f7300cf39b080399619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_address</element>
+            <position>1</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>cf42b76ddb1f7300cf39b080399619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_email_id</element>
+            <position>2</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>4342b76ddb1f7300cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>c342b76ddb1f7300cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_name</element>
+            <position>4</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>4742b76ddb1f7300cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_contact_no</element>
+            <position>5</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>c742b76ddb1f7300cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>6</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:40:52</sys_created_on>
+            <sys_id>4b42b76ddb1f7300cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_company" sys_domain="global" view="Default view">10e1732ddb1f7300cf39b080399619f6</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:40:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_373005_gatepass_company</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-08-16 13:39:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10e1732ddb1f7300cf39b080399619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_373005_gatepass_company</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+            <sys_update_name>sys_ui_section_10e1732ddb1f7300cf39b080399619f6</sys_update_name>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-08-16 13:39:02</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assets</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>on load of gatepass form.</messages>
+        <name>onLoadGatepass</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //on load of gatepass form visit date is set to tadays date....
+// 	var currentdate = new GlideDate();
+// 	currentdate.getByFormat("MM-dd-yyyy");
+// 	g_form.setValue("visit_date", currentdate.getByFormat("MM-dd-yyyy"));
+   
+	
+ 	var gr = new GlideRecord ('Visitor');
+// 	gr.orderByDesc('sys_created_on');
+// 	gr.setLimit(1);
+// 	gr.query();
+
+// 	if (gr.next()){
+
+// 	  g_form.setValue("visitee_employee_fk", gr); 
+
+// 	}
+	
+	var myparm = getParmVal('sysparm_id') || 'N/A';
+	gr.get(myparm);
+	g_form.setValue("visitee_employee_fk", gr ); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-08-31 06:33:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59ee1756db2bb700cf39b080399619a5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>onLoadGatepass</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_client_59ee1756db2bb700cf39b080399619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 10:32:51</sys_updated_on>
+        <table>x_373005_gatepass_gate_pass</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

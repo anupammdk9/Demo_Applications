@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Visitor Type" max_length="40" name="x_373005_gatepass_visitor_type" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Status" mandatory="true" max_length="40" name="jstatustype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Visitor Type" mandatory="true" max_length="255" name="svisitortype" type="string_full_utf8"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

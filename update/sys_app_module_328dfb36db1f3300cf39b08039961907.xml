@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Gatepass Management System">d18cb4c5db133300cf39b08039961926</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Create asset</hint>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create Asset</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_373005_gatepass_assets</name>
+        <order>12</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,x_373005_gatepass.assets_user,x_373005_gatepass.GPMS_DEV</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>anupam.m</sys_created_by>
+        <sys_created_on>2019-08-20 11:43:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>328dfb36db1f3300cf39b08039961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Asset</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_app_module_328dfb36db1f3300cf39b08039961907</sys_update_name>
+        <sys_updated_by>anupam.m</sys_updated_by>
+        <sys_updated_on>2019-08-20 11:43:40</sys_updated_on>
+        <timeline_page/>
+        <title>Create Asset</title>
+        <uncancelable>false</uncancelable>
+        <view_name>create</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

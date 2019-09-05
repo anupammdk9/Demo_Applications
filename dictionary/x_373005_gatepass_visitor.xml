@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Visitor" max_length="40" name="x_373005_gatepass_visitor" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Address" mandatory="true" max_length="512" name="address" type="string_full_utf8"/>
+        <element label="Id Proof" mandatory="true" max_length="255" name="id_proof" type="string_full_utf8"/>
+        <element label="Mobile No" mandatory="true" max_length="16" name="mobile_no" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="3" default="0" label="Status" mandatory="true" max_length="20" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Visitor Name" mandatory="true" max_length="128" name="visitor_name" type="string_full_utf8"/>
+        <element label="Visitor Type Fk" mandatory="true" max_length="32" name="visitor_type_fk" reference="x_373005_gatepass_visitor_type" type="reference"/>
+        <index name="index">
+            <element name="visitor_type_fk"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
