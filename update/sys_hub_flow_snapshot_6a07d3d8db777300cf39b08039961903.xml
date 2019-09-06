@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>sadf</description>
+        <internal_name>adfasdfsdfadsf</internal_name>
+        <label_cache>[{"name":"29779e7c-530d-40bc-a55c-a38b7a97ebc0.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"}]</label_cache>
+        <master>true</master>
+        <name>adfasdfsdfadsf</name>
+        <outputs/>
+        <parent_flow display_value="adfasdfsdfadsf">bbf51798db777300cf39b08039961987</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>anupam.m</sys_created_by>
+        <sys_created_on>2019-09-06 11:00:45</sys_created_on>
+        <sys_id>6a07d3d8db777300cf39b08039961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>adfasdfsdfadsf</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_6a07d3d8db777300cf39b08039961903</sys_update_name>
+        <sys_updated_by>anupam.m</sys_updated_by>
+        <sys_updated_on>2019-09-06 11:00:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a07d3d8db777300cf39b08039961903"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6a07d3d8db777300cf39b08039961903"/>
+</record_update>

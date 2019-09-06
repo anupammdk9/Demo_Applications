@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="visit_enter_time" label="Visit Enter_Time" language="en" table="x_373005_gatepass_gate_pass">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>visit_enter_time</element>
+            <help/>
+            <hint/>
+            <label>Visit Enter_Time</label>
+            <language>en</language>
+            <name>x_373005_gatepass_gate_pass</name>
+            <plural>Visit Enter_Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 05:16:01</sys_created_on>
+            <sys_id>38280e1cdbbf3300cf39b0803996198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Visit Enter_Time</sys_name>
+            <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+            <sys_update_name>sys_documentation_x_373005_gatepass_gate_pass_visit_enter_time_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 05:16:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

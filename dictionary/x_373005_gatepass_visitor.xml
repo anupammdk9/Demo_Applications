@@ -12,8 +12,8 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Visitor Name" mandatory="true" max_length="128" name="visitor_name" type="string_full_utf8"/>
-        <element label="Visitor Type Fk" mandatory="true" max_length="32" name="visitor_type_fk" reference="x_373005_gatepass_visitor_type" type="reference"/>
+        <element display="true" label="Visitor Name" mandatory="true" max_length="128" name="visitor_name" type="string_full_utf8"/>
+        <element label="Visitor Type" mandatory="true" max_length="32" name="visitor_type_fk" reference="x_373005_gatepass_visitor_type" type="reference"/>
         <index name="index">
             <element name="visitor_type_fk"/>
         </index>

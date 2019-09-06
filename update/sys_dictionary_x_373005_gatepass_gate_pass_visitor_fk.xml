@@ -6,20 +6,10 @@
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	var gr = new GlideRecord ('Visitor');
-gr.orderByDesc('Number');
-gr.setLimit(1);
-gr.query();
-
-// if (gr.next()){
-
-//    gs.print (gr.number + ' - ' + gr.sys_created_on);
-
-// }
-	return gr;  // return the calculated value
-
+	
+	
+	return;  // return the calculated value
+	
 })(current);]]></calculation>
         <choice>2</choice>
         <choice_field/>
@@ -27,7 +17,7 @@ gr.query();
         <column_label>Visitor</column_label>
         <comments/>
         <create_roles/>
-        <default_value>sys_created_onONCurrent minute@javascript:gs.beginningOfCurrentMinute()@javascript:gs.endOfCurrentMinute()^EQ</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -64,21 +54,21 @@ gr.query();
         <sys_created_by>anupam.m</sys_created_by>
         <sys_created_on>2019-08-24 10:20:57</sys_created_on>
         <sys_id>7f1f4058db237300cf39b080399619b3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Visitor</sys_name>
         <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
         <sys_update_name>sys_dictionary_x_373005_gatepass_gate_pass_visitor_fk</sys_update_name>
         <sys_updated_by>harshad.s</sys_updated_by>
-        <sys_updated_on>2019-09-05 07:57:54</sys_updated_on>
+        <sys_updated_on>2019-09-06 11:09:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>true</virtual>
+        <virtual>false</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
