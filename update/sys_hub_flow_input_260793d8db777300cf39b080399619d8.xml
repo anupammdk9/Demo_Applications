@@ -38,7 +38,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="adfasdfsdfadsf">bbf51798db777300cf39b08039961987</model>
+        <model/>
         <model_id>bbf51798db777300cf39b08039961987</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_bbf51798db777300cf39b08039961987</name>

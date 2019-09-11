@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="e2af3934db2bb300cf39b08039961970" sys_domain="global" table="x_373005_gatepass_visitor" version="3" view="">
+    <sys_ui_section caption="" section_id="85728659dbbbf300cf39b08039961978" sys_domain="global" table="x_373005_gatepass_visitor" version="3" view="create">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>1494b6a5db3b3700cf39b080399619ac</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>137476a5db3b3700cf39b08039961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <text>&lt;span id="annotation_name"&gt;Name field accepts only characters....&lt;/span&gt;</text>
             <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>1894b6a5db3b3700cf39b080399619ac</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>177476a5db3b3700cf39b08039961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <text>&lt;span id="annotation_email"&gt;Invalid Email ID....&lt;/span&gt;</text>
             <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>1c94b6a5db3b3700cf39b080399619ac</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>1b7476a5db3b3700cf39b08039961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <text>&lt;span id="annotation_mobNo"&gt;Mobile No. Invalid&lt;/span&gt;</text>
             <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
         </sys_ui_annotation>
@@ -37,13 +37,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>dc94b6a5db3b3700cf39b080399619ac</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>db7476a5db3b3700cf39b08039961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -51,27 +51,27 @@
             <element>visitor_name</element>
             <position>1</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5494b6a5db3b3700cf39b080399619ad</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>537476a5db3b3700cf39b08039961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1494b6a5db3b3700cf39b080399619ac</element>
+            <element>137476a5db3b3700cf39b08039961924</element>
             <position>2</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>d894b6a5db3b3700cf39b080399619ad</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>d77476a5db3b3700cf39b08039961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -79,13 +79,13 @@
             <element>visitor_type_fk</element>
             <position>3</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5094b6a5db3b3700cf39b080399619ae</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>5f7476a5db3b3700cf39b08039961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -93,13 +93,13 @@
             <element>address</element>
             <position>4</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>d494b6a5db3b3700cf39b080399619ae</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>d37476a5db3b3700cf39b08039961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -107,13 +107,13 @@
             <element>id_proof</element>
             <position>5</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5c94b6a5db3b3700cf39b080399619ae</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>5b7476a5db3b3700cf39b08039961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -121,13 +121,13 @@
             <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>d094b6a5db3b3700cf39b080399619af</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>df7476a5db3b3700cf39b08039961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -135,27 +135,27 @@
             <element>email_id</element>
             <position>7</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5894b6a5db3b3700cf39b080399619af</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>577476a5db3b3700cf39b08039961927</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1894b6a5db3b3700cf39b080399619ac</element>
+            <element>177476a5db3b3700cf39b08039961924</element>
             <position>8</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>dc94b6a5db3b3700cf39b080399619af</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>db7476a5db3b3700cf39b08039961927</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -163,13 +163,13 @@
             <element>photo</element>
             <position>9</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5494b6a5db3b3700cf39b080399619b0</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>537476a5db3b3700cf39b08039961928</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -177,13 +177,13 @@
             <element>.split</element>
             <position>10</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>d894b6a5db3b3700cf39b080399619b0</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>d77476a5db3b3700cf39b08039961928</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -191,27 +191,27 @@
             <element>mobile_no</element>
             <position>11</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5094b6a5db3b3700cf39b080399619b1</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>5f7476a5db3b3700cf39b08039961928</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1c94b6a5db3b3700cf39b080399619ac</element>
+            <element>1b7476a5db3b3700cf39b08039961924</element>
             <position>12</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>d494b6a5db3b3700cf39b080399619b1</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>d37476a5db3b3700cf39b08039961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -219,13 +219,13 @@
             <element>status</element>
             <position>13</position>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-09-10 05:42:33</sys_created_on>
-            <sys_id>5c94b6a5db3b3700cf39b080399619b1</sys_id>
+            <sys_created_on>2019-09-10 05:42:12</sys_created_on>
+            <sys_id>5b7476a5db3b3700cf39b08039961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="Default view">e2af3934db2bb300cf39b08039961970</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_373005_gatepass_visitor" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">85728659dbbbf300cf39b08039961978</sys_ui_section>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-09-10 05:42:33</sys_updated_on>
+            <sys_updated_on>2019-09-10 05:42:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -235,23 +235,23 @@
             <name>x_373005_gatepass_visitor</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>shalaka.s</sys_created_by>
-            <sys_created_on>2019-08-26 07:40:18</sys_created_on>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-09 07:25:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e2af3934db2bb300cf39b08039961970</sys_id>
+            <sys_id>85728659dbbbf300cf39b08039961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_373005_gatepass_visitor</sys_name>
             <sys_overrides/>
             <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
             <sys_policy/>
             <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
-            <sys_update_name>sys_ui_section_e2af3934db2bb300cf39b08039961970</sys_update_name>
-            <sys_updated_by>shalaka.s</sys_updated_by>
-            <sys_updated_on>2019-08-26 07:40:18</sys_updated_on>
+            <sys_update_name>sys_ui_section_85728659dbbbf300cf39b08039961978</sys_update_name>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-09 07:25:07</sys_updated_on>
             <sys_user/>
-            <title>true</title>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <title>false</title>
+            <view display_value="Create" name="create">1cb532579f2013001e0abde8132e70e4</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

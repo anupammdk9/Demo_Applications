@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="">string_full_utf8</internal_type>
         <mandatory>true</mandatory>
-        <max_length>512</max_length>
+        <max_length>250</max_length>
         <name>x_373005_gatepass_company</name>
         <next_element/>
         <primary>false</primary>
@@ -54,14 +54,14 @@
         <sys_created_by>harshad.s</sys_created_by>
         <sys_created_on>2019-08-16 13:38:55</sys_created_on>
         <sys_id>90413b2ddb1f7300cf39b080399619a3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Company Address</sys_name>
         <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
         <sys_update_name>sys_dictionary_x_373005_gatepass_company_company_address</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 13:05:34</sys_updated_on>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-09 11:48:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

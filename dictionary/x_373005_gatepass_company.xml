@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Company " max_length="40" name="x_373005_gatepass_company" type="collection">
-        <element label="Company Address" mandatory="true" max_length="512" name="company_address" type="string_full_utf8"/>
+        <element label="Company Address" mandatory="true" max_length="250" name="company_address" type="string_full_utf8"/>
         <element label="Company Contact No." mandatory="true" max_length="16" name="company_contact_no" type="string_full_utf8"/>
         <element label="Company Email_id" mandatory="true" max_length="128" name="company_email_id" type="string_full_utf8"/>
         <element display="true" label="Company Name" mandatory="true" max_length="100" name="company_name" type="string_full_utf8"/>

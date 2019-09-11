@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>on change validate  company contact no. </description>
+        <field>company_contact_no</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>tbl_Company_onChangePhoneNumber</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		annotation_phoneNo.parentNode.style.display = "none";
+		return;
+	}
+	
+	//Type appropriate comment here, and begin script below
+	var pattern = /[\d]{5}-[\d]{6}/g;
+		
+		if(!pattern.test(newValue)){
+			annotation_phoneNo.parentNode.style.display = "block";
+			
+		}
+	else{
+		annotation_phoneNo.parentNode.style.display = "none";
+	}
+		
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-09 11:08:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10053ad5db7ff300cf39b080399619ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tbl_Company_onChangePhoneNumber</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_client_10053ad5db7ff300cf39b080399619ff</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-09 11:11:30</sys_updated_on>
+        <table>x_373005_gatepass_company</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
