@@ -44,7 +44,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
-        <filter table="x_373005_gatepass_gate_pass">visitee_employee_fk.sys_id=9ca160f7dbcb3300cf39b08039961929<item endquery="false" field="visitee_employee_fk.sys_id" goto="false" newquery="false" operator="=" or="false" value="9ca160f7dbcb3300cf39b08039961929"/>
+        <filter table="x_373005_gatepass_gate_pass">visitee_employee_fk.user.sys_id=javascript:gs.getUserID();<item endquery="false" field="visitee_employee_fk.user.sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID();"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -103,14 +103,14 @@
         <sys_created_by>anupam.m</sys_created_by>
         <sys_created_on>2019-09-10 12:29:10</sys_created_on>
         <sys_id>38a15c7ddb3f3700cf39b0803996193d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Gatepass on Employee</sys_name>
         <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
         <sys_update_name>sys_report_38a15c7ddb3f3700cf39b0803996193d</sys_update_name>
-        <sys_updated_by>harshad.s</sys_updated_by>
-        <sys_updated_on>2019-09-11 04:43:22</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 10:27:13</sys_updated_on>
         <table>x_373005_gatepass_gate_pass</table>
         <title>Gatepass on Employee</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

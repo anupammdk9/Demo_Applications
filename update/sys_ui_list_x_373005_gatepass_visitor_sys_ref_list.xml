@@ -2,63 +2,93 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_373005_gatepass_visitor" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">3c081db9dbef3700cf39b08039961949</list_id>
+            <element>visitor_name</element>
+            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">4645dd4adbb73300cf39b08039961943</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 07:20:58</sys_created_on>
-            <sys_id>74081db9dbef3700cf39b0803996194a</sys_id>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
+            <sys_id>8e45dd4adbb73300cf39b08039961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 07:20:58</sys_updated_on>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>visitor_name</element>
-            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">3c081db9dbef3700cf39b08039961949</list_id>
+            <element>address</element>
+            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">4645dd4adbb73300cf39b08039961943</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 07:20:58</sys_created_on>
-            <sys_id>f4081db9dbef3700cf39b0803996194a</sys_id>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
+            <sys_id>0245dd4adbb73300cf39b08039961944</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 07:20:58</sys_updated_on>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>id_proof</element>
-            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">3c081db9dbef3700cf39b08039961949</list_id>
+            <element>email_id</element>
+            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">4645dd4adbb73300cf39b08039961943</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 07:20:58</sys_created_on>
-            <sys_id>78081db9dbef3700cf39b0803996194a</sys_id>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
+            <sys_id>8245dd4adbb73300cf39b08039961944</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 07:20:58</sys_updated_on>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>mobile_no</element>
-            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">3c081db9dbef3700cf39b08039961949</list_id>
+            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">4645dd4adbb73300cf39b08039961943</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 07:20:58</sys_created_on>
-            <sys_id>f8081db9dbef3700cf39b0803996194a</sys_id>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
+            <sys_id>0645dd4adbb73300cf39b08039961944</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 07:20:58</sys_updated_on>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>photo</element>
+            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">4645dd4adbb73300cf39b08039961943</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
+            <sys_id>8645dd4adbb73300cf39b08039961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>id_proof</element>
+            <list_id display_value="x_373005_gatepass_visitor" element="NULL" name="x_373005_gatepass_visitor" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">4645dd4adbb73300cf39b08039961943</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
+            <sys_id>0a45dd4adbb73300cf39b08039961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 07:20:58</sys_created_on>
+            <sys_created_on>2019-09-11 12:03:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3c081db9dbef3700cf39b08039961949</sys_id>
+            <sys_id>4645dd4adbb73300cf39b08039961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_373005_gatepass_visitor</sys_name>
             <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
@@ -83,7 +113,7 @@
             <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
             <sys_update_name>sys_ui_list_x_373005_gatepass_visitor_sys_ref_list</sys_update_name>
             <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 07:20:58</sys_updated_on>
+            <sys_updated_on>2019-09-11 12:03:13</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">f83811707420330078509adcc48c879b</view>
             <view_name/>

@@ -25,15 +25,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1751d01cdb237300cf39b080399619e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>New Gate Pass</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
         <sys_update_name>sys_app_module_1751d01cdb237300cf39b080399619e0</sys_update_name>
-        <sys_updated_by>anupam.m</sys_updated_by>
-        <sys_updated_on>2019-08-24 10:23:47</sys_updated_on>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-12 05:29:50</sys_updated_on>
         <timeline_page/>
         <title>New Gate Pass</title>
         <uncancelable>false</uncancelable>

@@ -4,25 +4,6 @@
             <dependent_value/>
             <element>gatepass_status</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Choice 1</label>
-            <language>en</language>
-            <name>x_373005_gatepass_gate_pass</name>
-            <sequence>0</sequence>
-            <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 08:01:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8541ed71db237700cf39b080399619c9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 10:01:46</sys_updated_on>
-            <value>Choice 1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>gatepass_status</element>
-            <hint/>
             <inactive>false</inactive>
             <label>Enter</label>
             <language>en</language>
@@ -42,25 +23,6 @@
             <dependent_value/>
             <element>gatepass_status</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Choice 2</label>
-            <language>en</language>
-            <name>x_373005_gatepass_gate_pass</name>
-            <sequence>1</sequence>
-            <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 08:01:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c541ed71db237700cf39b080399619ca</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 10:01:46</sys_updated_on>
-            <value>Choice 2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>gatepass_status</element>
-            <hint/>
             <inactive>false</inactive>
             <label>In</label>
             <language>en</language>
@@ -75,25 +37,6 @@
             <sys_updated_by>harshad.s</sys_updated_by>
             <sys_updated_on>2019-09-06 07:21:19</sys_updated_on>
             <value>in</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>gatepass_status</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Choice 3</label>
-            <language>en</language>
-            <name>x_373005_gatepass_gate_pass</name>
-            <sequence>2</sequence>
-            <sys_created_by>harshad.s</sys_created_by>
-            <sys_created_on>2019-08-29 08:01:24</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4541ed71db237700cf39b080399619cb</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>harshad.s</sys_updated_by>
-            <sys_updated_on>2019-08-29 10:01:46</sys_updated_on>
-            <value>Choice 3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

@@ -3,11 +3,8 @@
         <element label="Assets" max_length="200" name="assets" type="string_full_utf8"/>
         <element choice="3" default="enter" label="GatePass_Status" mandatory="true" max_length="40" name="gatepass_status" type="choice">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Enter" sequence="0" value="enter"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="In" sequence="1" value="in"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
                 <element inactive_on_update="false" label="Out" sequence="2" value="out"/>
                 <element inactive_on_update="false" label="Exit" sequence="3" value="exit"/>
             </choice>

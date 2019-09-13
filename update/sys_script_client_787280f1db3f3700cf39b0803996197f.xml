@@ -13,6 +13,20 @@
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
    annotation_vehicleNo.parentNode.style.display = "none";
+	
+	if(g_user.hasRole('x_373005_gatepass.GPMS_User') && !g_user.hasRole('x_373005_gatepass.GPMS_GateKeeper') && !g_user.hasRole('x_373005_gatepass.GPMS_Admin')){
+		
+		g_form.removeOption('gatepass_status', 'enter');
+		g_form.removeOption('gatepass_status', 'exit');
+		
+	}
+	
+// 	if(g_user.hasRole('x_373005_gatepass.GPMS_User')){
+		
+// 		g_form.setVisible('visitee_employee_fk',false);  
+		
+// 	}
+	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>harshad.s</sys_created_by>
@@ -20,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>787280f1db3f3700cf39b0803996197f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>onLoadGatepass</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
@@ -28,7 +42,7 @@
         <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
         <sys_update_name>sys_script_client_787280f1db3f3700cf39b0803996197f</sys_update_name>
         <sys_updated_by>harshad.s</sys_updated_by>
-        <sys_updated_on>2019-09-10 11:24:13</sys_updated_on>
+        <sys_updated_on>2019-09-12 06:14:11</sys_updated_on>
         <table>x_373005_gatepass_gate_pass</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
