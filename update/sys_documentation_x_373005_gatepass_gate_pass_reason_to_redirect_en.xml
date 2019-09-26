@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="reason_to_redirect" label="reason To Redirect" language="en" table="x_373005_gatepass_gate_pass">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reason_to_redirect</element>
+            <help/>
+            <hint/>
+            <label>reason To Redirect</label>
+            <language>en</language>
+            <name>x_373005_gatepass_gate_pass</name>
+            <plural>reason To Redirects</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-25 10:27:58</sys_created_on>
+            <sys_id>dfb509eadbc00010cf39b080399619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reason To Redirect</sys_name>
+            <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+            <sys_update_name>sys_documentation_x_373005_gatepass_gate_pass_reason_to_redirect_en</sys_update_name>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-25 10:27:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

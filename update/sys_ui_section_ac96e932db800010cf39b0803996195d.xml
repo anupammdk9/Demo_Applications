@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Other" section_id="ac96e932db800010cf39b0803996195d" sys_domain="global" table="x_373005_gatepass_gate_pass" version="3" view="Update">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-25 10:18:44</sys_created_on>
+            <sys_id>08a3c1aadbc00010cf39b0803996195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-25 10:18:44</sys_updated_on>
+            <text>&lt;span id="annotation_vehicleNo"&gt;Invalid Vehicle Number....&lt;/span&gt;</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assets</element>
+            <position>0</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:54</sys_created_on>
+            <sys_id>b896e932db800010cf39b0803996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other" display_value="Other" name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">ac96e932db800010cf39b0803996195d</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_nos</element>
+            <position>1</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:54</sys_created_on>
+            <sys_id>3c96e932db800010cf39b0803996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other" display_value="Other" name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">ac96e932db800010cf39b0803996195d</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:54</sys_created_on>
+            <sys_id>bc96e932db800010cf39b0803996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other" display_value="Other" name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">ac96e932db800010cf39b0803996195d</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_no</element>
+            <position>3</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:54</sys_created_on>
+            <sys_id>3096e932db800010cf39b08039961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other" display_value="Other" name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">ac96e932db800010cf39b0803996195d</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>08a3c1aadbc00010cf39b0803996195c</element>
+            <position>4</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:54</sys_created_on>
+            <sys_id>b096e932db800010cf39b08039961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other" display_value="Other" name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">ac96e932db800010cf39b0803996195d</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:54</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Other</caption>
+            <header>false</header>
+            <name>x_373005_gatepass_gate_pass</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac96e932db800010cf39b0803996195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+            <sys_update_name>sys_ui_section_ac96e932db800010cf39b0803996195d</sys_update_name>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Update" name="Update">2c96e932db800010cf39b08039961959</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

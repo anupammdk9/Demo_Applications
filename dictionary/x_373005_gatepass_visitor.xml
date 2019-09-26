@@ -7,10 +7,10 @@
         <element label="Mobile No" mandatory="true" max_length="16" name="mobile_no" type="string_full_utf8"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Photo" max_length="40" name="photo" type="user_image"/>
-        <element choice="3" default="0" label="Status" mandatory="true" max_length="20" name="status" type="choice">
+        <element choice="3" default="active" label="Status" mandatory="true" max_length="20" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Active" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="Inactive" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_373005_gatepass.createAndUpdateGatepass</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>createAndUpdateGatepass</name>
+        <script><![CDATA[var createAndUpdateGatepass = Class.create();
+createAndUpdateGatepass.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	createGatepass:function(employee,visitor,reason,assets,vehicle_no,no_of_group_members,from_employee){
+		
+		var gr = new GlideRecord('x_373005_gatepass_gate_pass');
+		gr.initialize();
+		gr.	visitee_employee_fk = employee;
+		gr.visitor_fk=visitor;
+		gr.reason=reason;
+		gr.gatepass_status='enter';
+		gr.assets=assets;
+		gr.vehicle_no=vehicle_no;
+		gr.group_nos=no_of_group_members;
+		gr.from_employee_fk= from_employee;
+		gr.insert();
+	},
+	
+	type: 'createAndUpdateGatepass'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-25 09:55:26</sys_created_on>
+        <sys_id>1f3bf826dbc00010cf39b0803996199e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>createAndUpdateGatepass</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_include_1f3bf826dbc00010cf39b0803996199e</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-25 11:26:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

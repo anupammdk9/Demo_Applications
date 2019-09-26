@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>on submit of gatepass check that vehicle number is valid</description>
+        <field>vehicle_no</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onSubmitGatepassMobile</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   var vehicleNumber = g_form.getValue("vehicle_no");
+	
+		if(vehicleNumber != '' ){
+			var saveAndClose   = /^[A-Za-z]{2}[ -][0-9]{1,2}(?: [A-Za-z])?(?: [A-Za-z]{1,3})? [0-9]{4}$/g.test(vehicleNumber);
+			if(!saveAndClose){
+			alert('Invalid Vehicle Number....');
+			g_form.clearValue('vehicle_no');
+			return false;
+			//annotation_vehicleNo.parentNode.style.display = "block";
+			}
+			else{
+				return true;
+			}
+		}
+		else{
+			return true;
+			//annotation_vehicleNo.parentNode.style.display = "none";
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-23 11:18:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>852dbeb1db040010cf39b080399619b7</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>onSubmitGatepassMobile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_client_852dbeb1db040010cf39b080399619b7</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-23 12:47:14</sys_updated_on>
+        <table>x_373005_gatepass_gate_pass</table>
+        <type>onSubmit</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

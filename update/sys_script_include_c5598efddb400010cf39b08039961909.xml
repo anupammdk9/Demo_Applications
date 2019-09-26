@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_373005_gatepass.Validations</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Validations</name>
+        <script><![CDATA[var Validations = Class.create();
+Validations.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	isEmailValid:function(){
+		
+		var email = this.getParameter('sysparm_email');
+		var str = email;
+		var n = str.indexOf("@");
+		var n1 = str.indexOf(".");
+		var n2 = str.indexOf(".com");
+		if (n == -1 || n1 == -1 || n2== -1) {
+			return false;
+		}
+		else{
+			return true;
+		}
+	},
+	
+	isMobileNumberValid:function(){
+		var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+			phoneno=/^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[6-9]\d{9}$/g;
+				var mobileNo = this.getParameter('sysparm_mobileNo');
+				var digits = mobileNo.length;
+				if(mobileNo.length>14){
+					gs.info('mob. no. is invalid mobileNo.length>14');
+					return false;
+				}
+				else if (mobileNo.match(phoneno))
+					{
+					var code = '';
+					var area = mobileNo.substring(0, 3);
+					var prefix = mobileNo.substring(3, 6);
+					var line = mobileNo.substring(6);
+					gs.info('mob. no. is valid');
+					return true;
+					
+				}
+				else
+					{
+					gs.info('mob. no. is invalid !mobileNo.matchphoneno');
+					return false;
+				}
+			},
+	
+	isNameValid:function(){
+		var string = this.getParameter('sysparm_string');
+		var characterValidaion   = /^[A-Za-z\. \s]+$/g.test(string);
+	if(!characterValidaion){
+		return false;
+		//annotation_name.parentNode.style.display = "block";
+	}
+	else{
+		return true;
+		//annotation_name.parentNode.style.display = "none";
+	}
+	},
+		
+	isVehicleNumberValid:function(){
+		var vehicleNumber = this.getParameter('sysparm_vehicle_no');
+		var saveAndClose   = /^[A-Za-z]{2}[ -][0-9]{1,2}(?: [A-Za-z])?(?: [A-Za-z]{1,3})? [0-9]{4}$/g.test(vehicleNumber);
+		
+		if(!saveAndClose){
+			return false;
+			//annotation_vehicleNo.parentNode.style.display = "block";
+			
+		}
+		else{
+			return true;
+			//annotation_vehicleNo.parentNode.style.display = "none";
+		}
+
+	},
+	
+	isPhoneNumberValid:function(){
+		var phoneNumber = this.getParameter('sysparm_phone_number');
+		var pattern = /[\d]{5}-[\d]{6}/g;
+		
+		if(!pattern.test(phoneNumber)){
+			return false;
+			//annotation_phoneNo.parentNode.style.display = "block";
+			
+		}
+	else{
+		return true;
+		//annotation_phoneNo.parentNode.style.display = "none";
+	}
+	},
+	
+			type: 'Validations'
+		});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-23 07:32:34</sys_created_on>
+        <sys_id>c5598efddb400010cf39b08039961909</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Validations</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_include_c5598efddb400010cf39b08039961909</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-23 11:07:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

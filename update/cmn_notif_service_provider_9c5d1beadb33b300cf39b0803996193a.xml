@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_notif_service_provider">
+    <cmn_notif_service_provider action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <construction_script>current.phone_number + '@serviceprovider.com'</construction_script>
+        <email_prefix/>
+        <email_suffix>airtelmail.com</email_suffix>
+        <im_provider>Yahoo</im_provider>
+        <name>airtel Maharashtra</name>
+        <script/>
+        <sys_class_name>cmn_notif_service_provider</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-13 11:16:29</sys_created_on>
+        <sys_id>9c5d1beadb33b300cf39b0803996193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>airtel Maharashtra</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>cmn_notif_service_provider_9c5d1beadb33b300cf39b0803996193a</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:16:29</sys_updated_on>
+        <type>SMS</type>
+        <use_construction_script>false</use_construction_script>
+        <use_custom_script>false</use_custom_script>
+    </cmn_notif_service_provider>
+</record_update>

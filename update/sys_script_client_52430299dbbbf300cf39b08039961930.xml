@@ -17,17 +17,20 @@
 	}
 	
 	//Type appropriate comment here, and begin script below
-	var characterValidaion   = /^[A-Za-z\. \s]+$/g.test(newValue);
+	var glideAjax = new GlideAjax('Validations');
+	glideAjax.addParam('sysparm_name','isNameValid');
+	glideAjax.addParam('sysparm_string',newValue);
+	glideAjax.getXML(validName)
 	
-	if(!characterValidaion){
-		
-		annotation_name.parentNode.style.display = "block";
-			
-	}
-	else{
+}
+function validName(response){
+	var isValid = response.responseXML.documentElement.getAttribute('answer');
+	if(isValid == 'true'){
 		annotation_name.parentNode.style.display = "none";
 	}
-	
+	else{
+		annotation_name.parentNode.style.display = "block";
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>harshad.s</sys_created_by>
@@ -35,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52430299dbbbf300cf39b08039961930</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>tbl_Visitor_onChangeNameField</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
@@ -43,7 +46,7 @@
         <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
         <sys_update_name>sys_script_client_52430299dbbbf300cf39b08039961930</sys_update_name>
         <sys_updated_by>harshad.s</sys_updated_by>
-        <sys_updated_on>2019-09-09 11:05:36</sys_updated_on>
+        <sys_updated_on>2019-09-23 10:41:29</sys_updated_on>
         <table>x_373005_gatepass_visitor</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

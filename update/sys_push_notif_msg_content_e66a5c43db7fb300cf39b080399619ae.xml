@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>gatepassCreatedContent</name>
+        <push_app display_value="ServiceNow Classic Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <script><![CDATA[(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+    
+    var json = {};
+	
+// 	 json = { 
+//   "table" : current.getTableName(), 
+//   "sys_id" : current.sys_id, 
+//   "template" : { 
+//     "type": "2 button", 
+//     "button1" : { 
+//       "title" : "Approve", 
+//       "action" : attributes.openRecord, 
+//       "parameters" : { 
+//         "response" : "approve" 
+//        } 
+//      }, 
+//      "button2" : { 
+//        "title" : "Decline", 
+// //        "action" : attributes.button_action, 
+//        "parameters" : { "response" : "decline" 
+//        } 
+//      } 
+//    } 
+// };
+//     ----------------------------------------------------------------------
+//     json = {
+
+//         "aps" : {
+//             "sound" : "default"
+//         },
+//         "Redirection" : {
+//             "Title" : "Gatepass Generated Push Notification",
+//             "To" : "Embedded",
+//             "Destination": {
+//                 "DocumentId": "54b235e7dbf33700cf39b08039961902",
+//                 "ItemId": current.sys_id
+//             }
+//         },
+//         "Layout" : {
+// 			"Number": current.number,
+// 			"Visitor Name": current.visitor_fk.visitor_name,
+// 			"Photo": current.visitor_fk.photo + ".iix?t=small",
+//             "GatePass_Status": current.gatepass_status,
+//             "Reason": current.reason,
+//             "No. of Group Members" : current.group_nos,
+//             "Visitor Type": current.visitor_fk.visitor_type_fk.svisitortype,
+// 			"Mobile No.": current.visitor_fk.mobile_no,
+// 			"Email ID": current.visitor_fk.email_id,
+// 			"Assets": current.assets
+//         }
+	
+	json = {
+		"aps" : {
+			"sound" : "default"
+		},
+// 		"record" : {
+// 			"table" : current.getTableName(),
+// 			"sys_id" : current.sys_id
+// 		}
+		"Redirection" : {
+            "Title" : "Gatepass Generated Push Notification",
+            "To" : "Embedded",
+            "Destination": {
+                "DocumentId": "eb575d58db440010cf39b0803996194c",
+                "sys_id": current.sys_id
+            }
+        }
+    };
+    
+	
+    return json;
+})(current, message, attributes);
+
+]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-14 10:22:13</sys_created_on>
+        <sys_id>e66a5c43db7fb300cf39b080399619ae</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>gatepassCreatedContent</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_e66a5c43db7fb300cf39b080399619ae</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-18 12:31:04</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

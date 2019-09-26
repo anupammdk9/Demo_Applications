@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_act_script">
+    <sys_push_notif_act_script action="INSERT_OR_UPDATE">
+        <name>openRecord</name>
+        <script><![CDATA[(function runAction(/*Optional GlideRecord*/ current) {
+
+ // Implement action script here
+	    var json = {
+        "aps" : {
+            "sound" : "default"
+        },
+        "Redirection" : {
+            "Title" : "Gatepass Generated Push Notification",
+            "To" : "Embedded",
+            "Destination": {
+                "DocumentId": "54b235e7dbf33700cf39b08039961902"
+// 				,
+//                 "ItemId": current.sys_id
+            }
+        }
+// 		,
+//         "Layout" : {
+//             "GatePass_Status" : current.gatepass_status,
+//             "Reason" : current.reason,
+//             "group_nos" : current.group_nos,
+//             "visitor_type": current.visitor_fk.visitor_type_fk.svisitortype,
+// 			"visitor_mobile": current.visitor_fk.mobile_no,
+// 			"visitor_email": current.visitor_fk.email_id,
+// 			"assets": current.assets
+//         }
+    };
+
+})(current);]]></script>
+        <sys_class_name>sys_push_notif_act_script</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-17 10:23:44</sys_created_on>
+        <sys_id>6fd7f7bbdb373300cf39b08039961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>openRecord</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_push_notif_act_script_6fd7f7bbdb373300cf39b08039961926</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-17 10:26:51</sys_updated_on>
+    </sys_push_notif_act_script>
+</record_update>

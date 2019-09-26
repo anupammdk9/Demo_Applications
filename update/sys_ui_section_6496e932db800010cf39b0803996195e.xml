@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Redirect To," section_id="6496e932db800010cf39b0803996195e" sys_domain="global" table="x_373005_gatepass_gate_pass" version="3" view="Update">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_employee_fk</element>
+            <position>0</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:33:17</sys_created_on>
+            <sys_id>5a572572db800010cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Redirect To," display_value="Redirect To," name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">6496e932db800010cf39b0803996195e</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:33:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_to_redirect</element>
+            <position>1</position>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:33:17</sys_created_on>
+            <sys_id>1e572572db800010cf39b080399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Redirect To," display_value="Redirect To," name="x_373005_gatepass_gate_pass" sys_domain="global" view="2c96e932db800010cf39b08039961959">6496e932db800010cf39b0803996195e</sys_ui_section>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:33:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Redirect To,</caption>
+            <header>false</header>
+            <name>x_373005_gatepass_gate_pass</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>harshad.s</sys_created_by>
+            <sys_created_on>2019-09-26 07:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6496e932db800010cf39b0803996195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Redirect To,</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+            <sys_update_name>sys_ui_section_6496e932db800010cf39b0803996195e</sys_update_name>
+            <sys_updated_by>harshad.s</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:29:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Update" name="Update">2c96e932db800010cf39b08039961959</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

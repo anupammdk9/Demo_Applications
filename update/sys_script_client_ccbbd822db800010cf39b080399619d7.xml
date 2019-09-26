@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assets</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onLoadGatepassMobile</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_user.hasRole('x_373005_gatepass.GPMS_User') && !g_user.hasRole('x_373005_gatepass.GPMS_GateKeeper') && !g_user.hasRole('x_373005_gatepass.GPMS_Admin')){
+	   
+		g_form.removeOption('gatepass_status', 'enter');
+		g_form.removeOption('gatepass_status', 'exit');
+		
+	}
+	
+	var employee = g_form.getValue('visitee_employee_fk');
+	if(employee==''){
+		var sections = g_form.getSections();
+		 sections[2].style.display = 'none';
+		g_form.setDisplay('from_employee_fk',false);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-25 07:24:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ccbbd822db800010cf39b080399619d7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>onLoadGatepassMobile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_client_ccbbd822db800010cf39b080399619d7</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-26 07:56:57</sys_updated_on>
+        <table>x_373005_gatepass_gate_pass</table>
+        <type>onLoad</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

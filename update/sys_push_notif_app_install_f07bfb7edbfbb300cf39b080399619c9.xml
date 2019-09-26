@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <last_registered_on>2019-09-16 12:17:23</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>anupam.m</sys_created_by>
+        <sys_created_on>2019-09-14 08:04:39</sys_created_on>
+        <sys_id>f07bfb7edbfbb300cf39b080399619c9</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>e7RmqC5Elvw:APA91bEADpHxwBdwhD5WBz_sNwhALh_ptCXt9ULdOzOkUbdrxDnEIJvJHdnBzE5pPVhuu3pbeAgQ7RwZWk6K5a4uLxAeBOLXxhKOCncE_FQAnu3pTT5W7g1Scj79Bmy2axVXpqDejJVP</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_f07bfb7edbfbb300cf39b080399619c9</sys_update_name>
+        <sys_updated_by>anupam.m</sys_updated_by>
+        <sys_updated_on>2019-09-16 12:23:23</sys_updated_on>
+        <sys_user_id display_value="Anupam M Modak">f67fdc37dbcb3300cf39b08039961915</sys_user_id>
+        <token>e7RmqC5Elvw:APA91bEADpHxwBdwhD5WBz_sNwhALh_ptCXt9ULdOzOkUbdrxDnEIJvJHdnBzE5pPVhuu3pbeAgQ7RwZWk6K5a4uLxAeBOLXxhKOCncE_FQAnu3pTT5W7g1Scj79Bmy2axVXpqDejJVP</token>
+    </sys_push_notif_app_install>
+</record_update>

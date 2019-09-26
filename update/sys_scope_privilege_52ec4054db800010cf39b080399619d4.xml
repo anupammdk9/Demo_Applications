@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>naresh.v</sys_created_by>
+        <sys_created_on>2019-09-18 06:33:21</sys_created_on>
+        <sys_id>52ec4054db800010cf39b080399619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SysList</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_scope_privilege_52ec4054db800010cf39b080399619d4</sys_update_name>
+        <sys_updated_by>naresh.v</sys_updated_by>
+        <sys_updated_on>2019-09-18 06:33:21</sys_updated_on>
+        <target_name>SysList</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

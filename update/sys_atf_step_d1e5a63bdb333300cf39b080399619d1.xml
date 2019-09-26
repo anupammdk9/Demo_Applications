@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the values on the form as follows:
+Address = C-132, Antop Hill Warehousing Complex, Salt Pan Road, Wadala
+and Visitor Type = Guest
+and Id Proof = Aadhar Card
+and Mobile No = 913063527589899699999999999999999
+and Visitor Name = Kashmira Pawar
+and Status = Active
+and Email ID = eyrfdhgfdgfhgfhgfh</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>shalaka.s</sys_created_by>
+        <sys_created_on>2019-09-17 04:28:44</sys_created_on>
+        <sys_id>d1e5a63bdb333300cf39b080399619d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_atf_step_d1e5a63bdb333300cf39b080399619d1</sys_update_name>
+        <sys_updated_by>shalaka.s</sys_updated_by>
+        <sys_updated_on>2019-09-17 05:18:41</sys_updated_on>
+        <table>x_373005_gatepass_visitor</table>
+        <test display_value="New Visitor Form Test">21656ef7db333300cf39b080399619d3</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d1e5a63bdb333300cf39b080399619d1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d1e5a63bdb333300cf39b080399619d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shalaka.s</sys_created_by>
+        <sys_created_on>2019-09-17 04:28:44</sys_created_on>
+        <sys_id>1bc6ee3bdb333300cf39b0803996199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shalaka.s</sys_updated_by>
+        <sys_updated_on>2019-09-17 04:28:44</sys_updated_on>
+        <value>x_373005_gatepass_visitor</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d1e5a63bdb333300cf39b080399619d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>shalaka.s</sys_created_by>
+        <sys_created_on>2019-09-17 04:28:44</sys_created_on>
+        <sys_id>1fc6ee3bdb333300cf39b0803996199f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>shalaka.s</sys_updated_by>
+        <sys_updated_on>2019-09-17 05:18:41</sys_updated_on>
+        <value>address=C-132, Antop Hill Warehousing Complex, Salt Pan Road, Wadala^visitor_type_fk=6b43c0bbdbaf3300cf39b080399619a3^id_proof=Aadhar Card^mobile_no=913063527589899699999999999999999^visitor_name=Kashmira Pawar^status=0^email_id=eyrfdhgfdgfhgfhgfh^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+</record_update>

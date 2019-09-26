@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
+    <sys_sg_button action="INSERT_OR_UPDATE">
+        <allow_images_upload>false</allow_images_upload>
+        <auto_redirection>true</auto_redirection>
+        <cancel_label/>
+        <condition/>
+        <condition_script/>
+        <condition_type>declarative</condition_type>
+        <confirm_label/>
+        <confirmation_message/>
+        <context>record</context>
+        <description/>
+        <destination_screen display_value="">5fa40ee3db373700cf39b08039961905</destination_screen>
+        <external_browser>false</external_browser>
+        <failure_message/>
+        <field_name/>
+        <jump_to_screen>false</jump_to_screen>
+        <link_label/>
+        <link_url/>
+        <mail_address/>
+        <mail_content/>
+        <mail_subject/>
+        <name>New Navigation</name>
+        <phone_number/>
+        <phone_type>cellular</phone_type>
+        <relative_url>false</relative_url>
+        <roles>admin,x_373005_gatepass.GPMS_Admin,x_373005_gatepass.GPMS_DEV,x_373005_gatepass.GPMS_GateKeeper,x_373005_gatepass.GPMS_Receiptionist,x_373005_gatepass.GPMS_User</roles>
+        <select_current_record>false</select_current_record>
+        <show_confirmation>false</show_confirmation>
+        <show_signature>false</show_signature>
+        <sms/>
+        <success_message/>
+        <sys_class_name>sys_sg_button</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-16 07:32:53</sys_created_on>
+        <sys_id>fe578667db373700cf39b080399619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Navigation</sys_name>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_sg_button_fe578667db373700cf39b080399619ed</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-16 07:32:53</sys_updated_on>
+        <table>x_373005_gatepass_gate_pass</table>
+        <take_value_from_field>true</take_value_from_field>
+        <type>redirection</type>
+        <write_back_action_item/>
+    </sys_sg_button>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe578667db373700cf39b080399619ed"/>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onSubmitVisitorMobile</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	var isValidMobileNumber = false;
+	var isValidEmailID = false;
+	var isValidName = false;
+	var mobNo = g_form.getValue("mobile_no");
+	var emailId = g_form.getValue("email_id");
+	var name = g_form.getValue("visitor_name");
+	if(mobNo != ''){
+		var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+			phoneno=/^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[6-9]\d{9}$/g;
+				var mobileNo = mobNo;
+				var digits = mobileNo.length;
+				if(mobileNo.length>14){
+					alert('Mobile Number has more numbers than expected....');
+					//return false;
+					isValidMobileNumber = false;
+				}
+		
+				if(mobileNo!=''){
+					if (mobileNo.match(phoneno))
+					{
+					var code = '';
+					var area = mobileNo.substring(0, 3);
+					var prefix = mobileNo.substring(3, 6);
+					var line = mobileNo.substring(6);
+					//return true;
+					isValidMobileNumber = true;
+				}
+				else
+					{
+					alert('Mobile Number Invalid....');
+					//return false;
+					isValidMobileNumber = false;
+				}
+			}
+	}
+			
+			if(emailId != ''){
+				var str = emailId;
+				var n = str.indexOf("@");
+				var n1 = str.indexOf(".");
+				var n2 = str.indexOf(".com");
+				if (n == -1 || n1 == -1 || n2== -1) {
+					alert('Invalid Email ID....');
+					//return false;
+					isValidEmailID = false;
+				}
+				else{
+					//return true;
+					isValidEmailID = true;
+				}
+			}
+		else{
+			isValidEmailID = true;
+		}
+			
+			if(name!=''){
+				var characterValidaion   = /^[A-Za-z\. \s]+$/g.test(name);
+				if(!characterValidaion){
+					alert('Name only accepts characters....');
+					//return false;
+					isValidName = false;
+					//annotation_name.parentNode.style.display = "block";
+				}
+				else{
+					//return true;
+					isValidName = true;
+					//annotation_name.parentNode.style.display = "none";
+				}
+			}
+			
+			if(isValidEmailID==true && isValidMobileNumber==true && isValidName==true){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>harshad.s</sys_created_by>
+        <sys_created_on>2019-09-23 12:42:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d9e0bbddb040010cf39b08039961984</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>onSubmitVisitorMobile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gatepass Management System" source="x_373005_gatepass">6ed97041db133300cf39b0803996191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gatepass Management System">6ed97041db133300cf39b0803996191e</sys_scope>
+        <sys_update_name>sys_script_client_8d9e0bbddb040010cf39b08039961984</sys_update_name>
+        <sys_updated_by>harshad.s</sys_updated_by>
+        <sys_updated_on>2019-09-25 07:13:27</sys_updated_on>
+        <table>x_373005_gatepass_visitor</table>
+        <type>onSubmit</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
