@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Tasks" max_length="40" name="x_373005_gatepass_tasks" sizeclass="1" type="collection">
+        <element label="time" max_length="50" name="time" type="timer"/>
+    </element>
+</database>
